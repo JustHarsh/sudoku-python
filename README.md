@@ -1,5 +1,5 @@
 # sudoku-python
-Play sudoku with an interactive UI 
+**Play sudoku with an interactive UI** 
 
 
 Step 1: User enters a board of their choice like so - 
@@ -26,7 +26,7 @@ print the letter entered by the user on the board.
 Step 5: After all the board is full, stop the game. 
 
 
-# the "predefined rules" - 
+# The "predefined rules" - 
 
 ```py 
 def square_rule_violated(row, col, value):
