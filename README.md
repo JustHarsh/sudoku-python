@@ -6,6 +6,7 @@ Step 1: User enters a board of their choice like so -
 [[' ', ' ', ' ', 'B' ], [' ', 'B', ' ', ' ' ], [' ','C',' ','D' ], [' ', 'A', 'B', ' ']]
 
 Step 2: Display the board entered by the user - 
+```     
      1 2 3 4
     +-+-+-+-+
    1|   |B  |
@@ -14,6 +15,7 @@ Step 2: Display the board entered by the user -
    3|C  |  D|
    4|A C|B  |
     +-+-+-+-+
+  ```
 
 Step 3: Ask user to enter a letter in the format: x-coordinate y-coordinate value. For example,
 1 2 A. 
