@@ -34,14 +34,16 @@ def square_rule_violated(row, col, value):
 The ```square_rule_violated()``` function checks if there is a duplication of letters in the nearest surrounding of its place on the board. 
 For example, 
 
- 1 2 3 4
-+-+-+-+-+
+```
+  1 2 3 4
+ +-+-+-+-+
 1|   |B  |
 2|B  |   |
-+-+-+-+-+
+ +-+-+-+-+
 3|C  |  D|
 4|A C|B  |
-+-+-+-+-+
+ +-+-+-+-+
+ ```
 
 The square rule is violated in the example above because C at (4,2) is one of the nearest neighbours of
 C at (3,1). However, the below would NOT be an example of this violation.
