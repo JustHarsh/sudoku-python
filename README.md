@@ -3,7 +3,7 @@ Play sudoku with an interactive UI
 
 
 Step 1: User enters a board of their choice like so - 
-[[' ', ' ', ' ', 'B' ], [' ', 'B', ' ', ' ' ], [' ','C',' ','D' ], [' ', 'A', 'B', ' ']]
+```[[' ', ' ', ' ', 'B' ], [' ', 'B', ' ', ' ' ], [' ','C',' ','D' ], [' ', 'A', 'B', ' ']]```
 
 Step 2: Display the board entered by the user - 
 ```     
@@ -47,11 +47,11 @@ The square rule is violated in the example above because C at (4,2) is one of th
 C at (3,1). However, the below would NOT be an example of this violation.
 
 ```
- 1 2 3 4
-+-+-+-+-+
+  1 2 3 4
+ +-+-+-+-+
 1|   |B  |
 2|B  |   |
-+-+-+-+-+
+ +-+-+-+-+
 3|  C|C D|
 4|A  |B  |
  +-+-+-+-+
