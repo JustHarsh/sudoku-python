@@ -79,3 +79,5 @@ def all_cells_filled():
 ```
 
 The ```all_cells_filled()``` function checks if the entire board is filled. Returns True when there is no coordinate is " ".
+
+Once all cells are filled, the game stops and prints ```Good game!``` in the console. 
