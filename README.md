@@ -46,6 +46,7 @@ For example,
 The square rule is violated in the example above because C at (4,2) is one of the nearest neighbours of
 C at (3,1). However, the below would NOT be an example of this violation.
 
+```
  1 2 3 4
 +-+-+-+-+
 1|   |B  |
@@ -53,7 +54,8 @@ C at (3,1). However, the below would NOT be an example of this violation.
 +-+-+-+-+
 3|  C|C D|
 4|A  |B  |
-+-+-+-+-+
+ +-+-+-+-+
+```
 
 Here, C at (3,3) does NOT violate the square rule because it is not in its local square coordinates i.e., nearest 
 neighbour, [(3,1), (3,2), (4,1), (4,2)].
